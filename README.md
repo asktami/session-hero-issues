@@ -2,7 +2,7 @@
 
 Issues, Project, User Stories and Wireframes for Session Hero - Bloc.io Fullstack Capstone.
 
-Screen Names:
+## Top 5 Wirframes
 - LANDING PAGE
 - REGISTRATION FORM
 - LOGIN FORM
