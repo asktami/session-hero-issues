@@ -5,14 +5,14 @@ Issues, Project, User Stories and Wireframes for Session Hero - Bloc.io Fullstac
 ## App Name: SessionHero
 
 ## Top 5 Wireframes
-- Landing Page
-- Registration Form
-- Login Form
-- Sessions List
-- Session Detail
+  1. Landing Page
+  2. Registration Form
+  3. Login Form
+  4. Sessions List
+  5. Session Detail
 
 ## Top 5 User Stories
-1. As a new user I want to sign up for an account
+### 1. As a new user I want to sign up for an account
 
 REGISTRATION FORM
 - user enters valid email & password and clicks submit -----> Login Form
@@ -27,7 +27,7 @@ REGISTRATION FORM
 
 
 
-2. As a new user I want to log in to my account
+### 2. As a new user I want to log in to my account
 
 LOGIN FORM
 - user enters valid email & password and clicks submit -----> SESSIONS LIST page showing all sessions +  "My Schedule" and "Logout" buttons
@@ -38,8 +38,8 @@ LOGIN FORM
 
 
 
-3. As a new user I want to see sessions (can see all/filter sessions without logging in)
-4. As a new user I want to filter sessions
+### 3. As a new user I want to see sessions (can see all/filter sessions without logging in)
+### 4. As a new user I want to filter sessions
 
 SESSIONS LIST
 - user, that has NOT logged in, clicks on button to "SHOW ALL" sessions, or uses pulldowns to "FILTER BY DAY" or "FILTER BY TRACK" -----> sees SESSIONS LIST page with sessions that match the filter criteria +  "My Schedule" and "Logout" and "ADD TO SCHEDULE" buttons
@@ -60,7 +60,7 @@ SESSIONS LIST
 -- when user, that HAS logged in, clicks on the COMMENT button -----> SESSION DETAIL screen with session details AND list of all COMMENTS and COMMENT ADD FORM
 
 
-5. As a new/returning user I want to see session info
+### 5. As a new/returning user I want to see session info
 
 SESSION DETAIL
 - user, that has NOT logged in, clicks on Session Name (link) -----> SESSION DETAIL page with list of SESSION COMMENTS
