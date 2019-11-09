@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>HTML wireframe</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">
+    <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+    <nav role="navigation">SessionHero&nbsp;|&nbsp;
+    Register&nbsp;|&nbsp;
+    Login&nbsp;|&nbsp;
+    My Schedule&nbsp;|&nbsp;
+    Logout</nav>
+    <main role="main">
+        <header role="banner">
+            <h1>Session Hero / Search Results / Comment / Schedule</h1>
+        </header>
+        
+        <section>
+            <header>
+            <h2>SESSION NAME</h2>
+            <p>TRACK</p>
+            <p>MONDAY</p>
+            <p>09/08/2019</p>
+            <p>9:00 am</p>
+            <p>10:00 am</p>
+        </header>
+        <blockquote>Praesent sagittis a mi sit amet dictum. Donec orci nibh, dignissim in leo et, congue semper mauris. Donec elit lacus, dictum et placerat eget, rhoncus sodales erat. Curabitur sit amet placerat neque, a tempus mi. Suspendisse a tempus dolor. Nullam porttitor nisi sed justo dictum consequat. Etiam sed congue felis.</blockquote>
+        
+        <button>COMMENT</button>
+        <button>ADD TO SCHEDULE</button>
+        </section>
+        
+        
+        <section>
+            <header>
+            <h2>SESSION NAME</h2>
+            <p>TRACK</p>
+            <p>MONDAY</p>
+            <p>09/08/2019</p>
+            <p>9:00 am</p>
+            <p>10:00 am</p>
+        </header>
+       
+        </section>
+
+        <section>
+        <header>
+            <h3>Registration Form</h3>
+        </header>
+        <form class='signup-form'>
+            <div>
+              <label for="first-name">First name</label>
+              <input placeholder='First Name' type="text" name='first-name' id='first-name' />
+            </div>
+            <div>
+              <label for="last-name">Last name</label>
+              <input type="text" name='last-name' id='last-name' placeholder='Last Name' />
+            </div>
+            <div>
+              <label for="username">Email</label>
+              <input type="text" name='username' id='username' />
+            </div>
+            <div>
+              <label for="password">Password</label>
+              <input type="password" name='password' id='password' />
+            </div>
+            <button type='submit'>Register</button>
+        </form>
+        </section>
+
+        
+
+        <section>
+            <form id="record-dream">
+          <div class="form-section">
+            <label for="dream-title">Dream title</label>
+            <input type="text" name="dream-title" placeholder="Flying dream" required>
+          </div>
+          <div class="form-section">
+            <label for="dream-summary">Dream summary</label>
+            <textarea name="dream-summary" rows="15"   required></textarea>
+          </div>
+          <div class="hours-slept-container" class="form-section">
+            <label for="hours-slept">Hours slept</label>
+            <input type="number" name="hours-slept" placeholder="8">
+          </div>
+          <div class="form-section">
+            <p>Select dream type</p>
+
+            <input type="radio" name="dream-type" value="0" class="dream-type-radio" checked>
+            <label for="dream-type">
+              <span>Normal</span>
+              <div class="dream-type-explanation">These are standard dreams where you have no idea you're dreaming until you wake up. You accept your dream reality as it is.</div>
+            </label>
+
+            <input type="radio" name="dream-type" value="1" class="dream-type-radio">
+            <label for="dream-type">
+              <span>Lucid</span>
+              <div class="dream-type-explanation">A dream during which the dreamer is aware of dreaming. The dreamer may be able to exert some degree of control over the dream characters, narrative, and environment.</div>
+            </label>
+
+            <input type="radio" name="dream-type" value="2" class="dream-type-radio">
+            <label for="dream-type">
+              <span>Nightmare</span>
+              <div class="dream-type-explanation">An unpleasant dream that can cause a strong emotional response from the mind, typically fear but also despair, anxiety and great sadness.</div>
+            </label>
+
+            <input type="radio" name="dream-type" value="3" class="dream-type-radio">
+            <label for="dream-type">
+              <span>Recurring</span>
+              <div class="dream-type-explanation">A dream which is experienced repeatedly over a long period.</div>
+            </label>
+
+            <input type="radio" name="dream-type" value="4" class="dream-type-radio">
+            <label for="dream-type">
+              <span>Double</span>
+              <div class="dream-type-explanation">Also known as a false awakening, a double dream is a vivid and convincing dream about awakening from sleep, while the dreamer in reality continues to sleep.</div>
+            </label>
+          </div>
+
+          <div class="form-section">
+            <p class="dream-date-header">Date of Dream</p>
+            <input type="number" name="date-month" placeholder="01" min="1" max="12" required=""> .
+            <input type="number" name="date-day" class="date-day"  placeholder="01" min="1" max="31" required=""> .
+            <input type="number" name="date-year" class="date-year" placeholder="2017" min="2016" max="2017" required="">
+          </div>
+
+          <button type="submit">Submit</button>
+          <button type="reset">Reset</button>
+        </form>
+        </section>
+
+        <section>
+            Project 3
+        </section>
+        
+        <section>
+            Section 4
+        </section>
+        
+        <section>
+            Section 5
+        </section>
+        
+        <section>
+            Section 6
+        </section>
+    </main>
+    <footer role="content-info">Footer</footer>
+</body>
+</html>
