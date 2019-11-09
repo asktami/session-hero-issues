@@ -49,15 +49,9 @@ SESSIONS LIST
 
 - user, that HAS logged in, clicks on button to "SHOW ALL" sessions, or uses pulldowns to "FILTER BY DAY" or "FILTER BY TRACK" -----> sees SESSIONS LIST page with sessions that match the filter criteria +  "My Schedule" and "Logout" and "ADD TO SCHEDULE" and "COMMENT" buttons + IF that session is in the user's SCHEDULE, they see text saying "in schedule" instead of the "SCHEDULE" button
 
---------------------
+    when user, that HAS logged in, clicks on the SCHEDULE button -----> session is added to the user's SCHEDULE and sessions list refreshes to show text saying "in schedule"
 
-
-- when user, that HAS logged in, clicks on the SCHEDULE button -----> session is added to the user's SCHEDULE and sessions list refreshes to show text saying "in schedule"
-
---------------------
-
-
-  - when user, that HAS logged in, clicks on the COMMENT button -----> SESSION DETAIL screen with session details AND list of all COMMENTS and COMMENT ADD FORM
+    when user, that HAS logged in, clicks on the COMMENT button -----> SESSION DETAIL screen with session details AND list of all COMMENTS and COMMENT ADD FORM
 
 
 ### 5. As a new/returning user I want to see session info
