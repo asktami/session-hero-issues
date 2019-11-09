@@ -52,12 +52,12 @@ SESSIONS LIST
 --------------------
 
 
-    - when user, that HAS logged in, clicks on the SCHEDULE button -----> session is added to the user's SCHEDULE and sessions list refreshes to show text saying "in schedule"
+- when user, that HAS logged in, clicks on the SCHEDULE button -----> session is added to the user's SCHEDULE and sessions list refreshes to show text saying "in schedule"
 
 --------------------
 
 
-    - when user, that HAS logged in, clicks on the COMMENT button -----> SESSION DETAIL screen with session details AND list of all COMMENTS and COMMENT ADD FORM
+  - when user, that HAS logged in, clicks on the COMMENT button -----> SESSION DETAIL screen with session details AND list of all COMMENTS and COMMENT ADD FORM
 
 
 ### 5. As a new/returning user I want to see session info
