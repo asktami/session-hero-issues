@@ -5,11 +5,11 @@ Issues, Project, User Stories and Wireframes for Session Hero - Bloc.io Fullstac
 ## App Name: SessionHero
 
 ## Top 5 Wireframes
-  1. Landing Page
-  2. Registration Form
-  3. Login Form
-  4. Sessions List
-  5. Session Detail
+  1. [Landing Page](https://asktami.github.io/sessionhero-project-management/index.html)
+  2. [Registration Form](https://asktami.github.io/sessionhero-project-management/registration-form.html)
+  3. [Login Form](https://asktami.github.io/sessionhero-project-management/login-form.html)
+  4. [Sessions List](https://asktami.github.io/sessionhero-project-management/session-list.html)
+  5. [Session Detail](https://asktami.github.io/sessionhero-project-management/session-detail.html)
 
 ## Top 5 User Stories
 ### 1. As a new user I want to sign up for an account
