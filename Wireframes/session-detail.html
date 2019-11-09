@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>HTML wireframe - SessionDetail</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">
+    <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+    <nav role="navigation"><a href="index.html">SessionHero</a>&nbsp;|&nbsp;
+    <a href="#">My Schedule</a>&nbsp;|&nbsp;
+    <a href="#">Logout</a></nav>
+    
+    <main role="main">
+        <header role="banner">
+            <h1>Session Detail</h1>
+        </header>
+        
+       
+ <section>
+            <a href="session-list.html">Show All</a>
+            |
+            <select id="filter-day">
+            <option value="">Filter by Day</option>
+            <option value="monday" data-filter="monday">Monday</option>
+            <option value="tuesday" data-filter="tuesday">Tuesday</option>
+            <option value="wednesday" data-filter="wednesday">Wednesday</option>
+            <option value="thursday" data-filter="thursday">Thursday</option>
+            </select>
+            
+            |
+            
+            <select id="filter-track">
+            <option value="">Filter by Track</option>
+            <option value="training" data-filter="training">Training Day</option>
+            <option value="general" data-filter="general">General</option>
+            <option value="create" data-filter="create">Create</option>
+            <option value="share" data-filter="share">Share</option>
+            <option value="integrate" data-filter="integrate">Integrate</option>
+            <option value="business" data-filter="business">Business</option>
+            <option value="sponsor" data-filter="sponsor">Sponsor</option>
+            <option value="fba" data-filter="fba">FBA</option>
+            </select>
+            |
+            
+            <a href="#">Expand/Collapse All</a>
+            
+        </section>
+        
+        
+       
+         
+        <section>
+            <header>
+                        
+            <p>Tuesday 6</p>
+            <p>11:00 am 12:00 pm</p>
+            
+            <p>How to Understand the Basics of APIs
+            <br><span class="location">Osceola C</span>
+            </p>
+            
+            <p>Integrate</p>
+
+        	</header>
+        
+        <p class="speaker">Matt Petrowsky</p>
+        
+        <p class="description">Learn the foundation of writing powerful scripts. When scripting any given process, there is rarely one single way to solve the problem. Discover the available steps to solve your specific problems and learn how to debug your scripts for the best possible execution. This session will focus on advancing your knowledge of creating scripts. Learn how to blueprint your desired solution, then implement those blueprints into an actual working script.</p>
+
+        
+        <p>
+        <button>ADD TO SCHEDULE</button>
+        </p>
+        
+        </section>
+
+        <section>
+            <h3>Comments</h3>
+            <ul class="comments">
+            <li><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse maximus dignissim semper. Duis porttitor placerat laoreet. Donec ultrices arcu non lorem convallis ullamcorper. </p>
+            <p class="rating">&#9733;&#9733;&#9733;&#9733;</p>
+            <p class="user">Demo1</p>
+            
+            <p><button>Update</button><button>Delete</button></p>
+            </li>
+            
+            <li><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse maximus dignissim semper. Duis porttitor placerat laoreet. Donec ultrices arcu non lorem convallis ullamcorper. </p>
+            <p class="rating">&#9733;&#9733;</p>
+            <p class="user">J. Doe</p>
+            
+            </li>
+            
+            </ul>
+            
+        </section>
+        
+        
+        <section>
+        <header>
+            <h3>Add Comment Form</h3>
+        </header>
+        <form>
+            <div>
+              <label for="comment">Comment</label>
+              <input type="textarea" name="comment" id="comment" placeholder="" required rows="5" cols="33"/>
+            </div>
+            <div>
+              <label for="rating">Rating</label>
+              <input type="number" name="rating" id="rating" min="1" max="5" required />
+            </div>
+            
+            <button type="submit">Add</button>
+        </form>
+        </section>
+        
+       
+    </main>
+    <footer role="content-info">Footer</footer>
+</body>
+</html>

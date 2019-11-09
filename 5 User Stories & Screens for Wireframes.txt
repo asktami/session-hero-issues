@@ -2,7 +2,7 @@ App Name: SessionHero
 
 Screen Names:
 - LANDING PAGE
-- SIGNUP FORM
+- REGISTRATION FORM
 - LOGIN FORM
 - SESSIONS LIST (with SCHEDULE, LOGOUT, SHOW ALL, FILTER BY DAY, FILTER BY TRACK, ADD TO SCHEDULE, and COMMENT buttons)
 - SESSION DETAIL (with COMMENTS LIST and COMMENT ADD FORM)
@@ -10,7 +10,7 @@ Screen Names:
 
 1. As a new user I want to sign up for an account
 
-SIGNUP FORM
+REGISTRATION FORM
 - user enters valid email & password and clicks submit -----> Login Form
 
 --------------------

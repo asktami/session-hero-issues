@@ -40,22 +40,18 @@ section:nth-child(even) {
   background-color: #ddd;
 }
 
-p {
-  margin: 0 auto;
-  max-width: 650px;
-}
-
-p + p {
-  margin-top: 15px;
-}
-
 form {
   text-align: left;
 }
 
-input, textarea {
+input {
   width: 100%;
   max-width: 500px;
+}
+
+input[type="textarea"] {
+	overflow-y: scroll;
+	min-height: 10vh;
 }
 
 input[type="number"] {
@@ -70,27 +66,16 @@ label {
   margin-bottom: 30px;
 }
 
-.dream-type-explanation {
-  font-size: 14px;
+ul.comments {
+	list-style: none;
+	text-align: left;
 }
 
-.dream-entry {
-  min-height: 0;
+/* vertical space between li items */
+li:not(:last-child) {
+	padding: 0 0 10px 0;
 }
 
-.dream-entry header {
-  padding: 0;
-}
-
-.dream-entry header h3 {
-  margin: 0;
-}
-
-.dream-description {
-  text-align: left;
-  margin-bottom: 30px;
-}
-
-.dream-stat {
-  color: blue;
-}
+/*
+---------------------------------------------------------------
+*/
