@@ -15,7 +15,7 @@ Issues, Project, User Stories and Wireframes for Session Hero - Bloc.io Fullstac
 ### 1. As a new user I want to sign up for an account
 
 REGISTRATION FORM
-- user enters valid email & password and clicks submit -----> Login Form
+- user enters valid email & password and clicks submit -----> LOGIN FORM
 
 - user enters invalid email/password and clicks submit -----> error message appears to supply valid email/password
 
@@ -34,9 +34,9 @@ LOGIN FORM
 ### 4. As a new user I want to filter sessions
 
 SESSIONS LIST
-- user, that has NOT logged in, clicks on button to "SHOW ALL" sessions, or uses pulldowns to "FILTER BY DAY" or "FILTER BY TRACK" -----> sees SESSIONS LIST page with sessions that match the filter criteria +  "My Schedule" and "Logout" and "ADD TO SCHEDULE" buttons
+- user, that has NOT logged in, clicks on button to "SHOW ALL" sessions, or uses pulldowns to "FILTER BY DAY" or "FILTER BY TRACK" -----> sees SESSIONS LIST page with sessions that match the filter criteria
 
-- user, that HAS logged in, clicks on button to "SHOW ALL" sessions, or uses pulldowns to "FILTER BY DAY" or "FILTER BY TRACK" -----> sees SESSIONS LIST page with sessions that match the filter criteria +  "My Schedule" and "Logout" and "ADD TO SCHEDULE" buttons + IF that session is in the user's SCHEDULE, they see text saying "in schedule" instead of the "SCHEDULE" button
+- user, that HAS logged in, clicks on button to "SHOW ALL" sessions, or uses pulldowns to "FILTER BY DAY" or "FILTER BY TRACK" -----> sees SESSIONS LIST page with sessions that match the filter criteria +  "My Schedule" and "Logout" and "ADD TO SCHEDULE" buttons; if that session is in the user's SCHEDULE, they see text saying "in schedule" instead of the "SCHEDULE" button
 
 - when user, that HAS logged in, clicks on the SCHEDULE button -----> session is added to the user's SCHEDULE and sessions list refreshes to show text saying "in schedule"
 
